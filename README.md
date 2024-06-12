@@ -64,6 +64,11 @@ CodersEnsemble is a full-stack web application built to foster collaboration amo
     flask run
     ```
 
+## Contributing
+
+**Erick O. Awino
+Benedict Ndigirigi Gichuhi
+
 ## Usage
 
 - Visit `http://127.0.0.1:5000` in your web browser.
