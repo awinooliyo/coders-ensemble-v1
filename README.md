@@ -38,7 +38,7 @@ CodersEnsemble is a full-stack web application built to foster collaboration amo
 1. Clone the repository:
     ```bash
     git clone https://github.com/awinooliyo/coders-ensemble-v1.git
-    cd CodersEnsemble
+    cd coders-ensemble-v1
     ```
 
 2. Create and activate a virtual environment:
@@ -52,20 +52,14 @@ CodersEnsemble is a full-stack web application built to foster collaboration amo
     pip install -r requirements.txt
     ```
 
-4. Set up the environment variables:
-    ```bash
-    cp .env.example .env
-    # Edit .env to include your configuration
-    ```
-
-5. Initialize the database:
+4. Initialize the database:
     ```bash
     flask db init
     flask db migrate
     flask db upgrade
     ```
 
-6. Run the application:
+5. Run the application:
     ```bash
     flask run
     ```
@@ -75,4 +69,3 @@ CodersEnsemble is a full-stack web application built to foster collaboration amo
 - Visit `http://127.0.0.1:5000` in your web browser.
 - Register for a new account or log in with existing credentials.
 - Create or join projects and start collaborating with other users.
-
